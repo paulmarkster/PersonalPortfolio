@@ -16,7 +16,7 @@ h4 { font-size: 12px; }
     display: flex;
 }
 
-#aside {
+aside {
     width: 352px;
     background-color: hsla(0, 0%, 98%, 100%);
 }
