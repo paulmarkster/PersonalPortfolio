@@ -12,7 +12,7 @@ h3 { font-size: 18px; }
 h4 { font-size: 12px; }
 
 #resume {
-    width: 1200px;
+    width: 100%;
     display: flex;
 }
 
@@ -34,6 +34,7 @@ aside {
     height: 180px;
     margin-top: 48px;
     margin-left: 48px;
+    margin-right: 40px;
 }
 
 #photo {
@@ -82,6 +83,7 @@ aside {
     position: absolute;
     z-index: 1;
     background-color: white;
+    border-radius: 10px;
     border: 1px solid lightgray;
 }
 
@@ -92,6 +94,7 @@ aside {
     z-index: 2;
     background-color: hsla(0, 0%, 94%, 100%);
     border: 1px solid lightgray;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,17 +175,17 @@ aside {
 }
 
 #achievements {
-    width: 836px;
+    width: 100%;
 }
 
 #content {
     margin-top: 64px;
     margin-left: 32px;
-    width: 756px;
+    width: 100%;
 }
 
 .achievement-outer {
-    width: 756px;
+    width: 100%;
     display: flex;
 }
 
@@ -193,16 +196,17 @@ aside {
 
 .achievement-inner {
     margin-left: 32px;
-    width: 692px;
+    width: 100%;
     font-weight: 500;
 }
 
 #projects {
     margin-top: 32px;
-    width: 1384px;
+    width: 100%;
     height: 166px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: start;
 }
 .project {
     margin-top: 24px;
@@ -235,8 +239,10 @@ aside {
 .project-background {
     width: 342px;
     height: 166px;
+    margin-right: 4px;
+    margin-bottom: 4px;
     border-radius: 10px;
-    background-color: hsla(0, 0%, 98%, 100%);
+    background-color: hsla(0, 0%, 96%, 100%);
 }
 
 .project-link {
