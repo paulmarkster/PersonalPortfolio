@@ -174,6 +174,7 @@ aside {
     font-weight: 500;
 }
 
+/* Content and achievement divs are common to all achievement sections  */
 #achievements {
     width: 100%;
 }
@@ -200,10 +201,11 @@ aside {
     font-weight: 500;
 }
 
+/* Definition of the project cards for the Latest Projects section */
 #projects {
     margin-top: 32px;
     width: 100%;
-    height: 166px;
+    height: max-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -265,6 +267,11 @@ aside {
     text-decoration: underline;
 }
 
+#experience {
+    margin-top: 48px;
+}
+
+/* Attributions for web page layout and element designs */
 #layout-attribution {
     margin-top: 32px;
     margin-bottom: 32px;
