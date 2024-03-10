@@ -325,7 +325,7 @@ aside {
     height: 240px;
     border-radius: 20px;
     background-color: hsla(0, 0%, 96%, 100%);
-    display: flex;
+    display: none;
 }
 
 #job-description-inner {
