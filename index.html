@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/styles.css">
+    <script src="./resources/js/experienceButtons.js" defer></script>
     <title>Personal Portfolio</title>
 </head>
 <body>
@@ -64,7 +65,7 @@
                 </div>
             </div>
             <div class="divider"></div>
-            <p id="layout-attribution">Layout prototype by <a href="https://www.figma.com/@angelolibero">Angelo Libero</a> on Figma</p>
+            <p id="layout-attribution">Layout inspired by Angelo Libero on <a href="https://www.figma.com/@angelolibero">Figma</a></p>
         </aside>
         <div id="achievements">
             <div id="content">
@@ -108,10 +109,88 @@
                         </div>
                     </div>
                 </div>
-                <div class="achievement-outer" id="experience">
+                <div class="achievements-divider"></div>
+                <div class="achievement-outer">
                     <img src="./resources/images/Bullet.png">
                     <div class="achievement-inner">
-                        <h2>Experience</h2>
+                        <h2>Experience<span id="experience-subtitle">(Click a job title button below to show the associated job description text)</span></h2>
+                        <div id="experiences">
+                            <div class="experience-background" id="job1">
+                                <div class="experience">
+                                    <h4>2018 - 2021</h4>
+                                    <p>Head of Common Software Foundation (CSF), NOKIA</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job2">
+                                <div class="experience">
+                                    <h4>2016 - 2018</h4>
+                                    <p>CSF Lead Product Manager, NOKIA</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job3">
+                                <div class="experience">
+                                    <h4>2008 - 2016</h4>
+                                    <p>WCDMA Senior Development and Project Manager, NOKIA</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job4">
+                                <div class="experience">
+                                    <h4>2007 - 2008</h4>
+                                    <p>WiMAX Senior Project Manager, NORTEL</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job5">
+                                <div class="experience">
+                                    <h4>2006 - 2007</h4>
+                                    <p>CDMA 1xEV-DO Senior Project Manager, NORTEL</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job6">
+                                <div class="experience">
+                                    <h4>2000 - 2006</h4>
+                                    <p>UMTS (3G) Senior Manager, NORTEL</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job7">
+                                <div class="experience">
+                                    <h4>1998 - 2000</h4>
+                                    <p>CDMA (2G) Senior Manager, NORTEL</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job8">
+                                <div class="experience">
+                                    <h4>1989 - 1998</h4>
+                                    <p>ISDN User Part Dev/Manager, NORTEL</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job9">
+                                <div class="experience">
+                                    <h4>1986 - 1989</h4>
+                                    <p>Train Control SW Developer, SEL CANADA</p>
+                                </div>
+                            </div>
+                            <div class="experience-background" id="job10">
+                                <div class="experience">
+                                    <h4>1985 - 1986</h4>
+                                    <p>Train Control SW Developer, CN RAIL</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="job-description-outer">
+                            <div id="job-description-inner">
+                                <div id="job-description">
+                                    <p id="jd-year"></p>
+                                    <p id="jd-title"></p>
+                                    <div id="job-description-text">
+                                        <ul>
+                                            <li id="jd-text1"></li>
+                                            <li id="jd-text2"></li>
+                                            <li id="jd-text3"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
